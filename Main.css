@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap");
+nav img, nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 140px;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/01/82/33/33/1000_F_182333331_Sb4Ispnl8oW0VNYmLO5DPg4IFoPo6waP.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgb(96, 130, 208);
+  border-top: 4px solid rgb(19, 1, 1);
+  box-shadow: 0px -12px 27px -3px, inset 0px 18px 37px -35px red;
+  border-radius: 10px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+nav ul {
+  justify-content: space-around;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul span {
+  display: none;
+}
+nav a {
+  margin: 2px;
+}
+nav img:hover {
+  transform: rotate(180deg) scale(-1);
+}
+nav img {
+  width: 10vw;
+  height: 15%;
+  padding: 3px;
+  outline: 2px dotted rgb(255, 255, 255);
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+
+@media (min-width: 825px) {
+  header {
+    width: 100vw;
+    height: 400px;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/27/53/08/1000_F_227530863_cRCROuNmITlNIBK9hzijGqv5x0ktnN4F.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  header::after {
+    content: "Weinachtszeit";
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-weight: 900;
+    font-size: 80px;
+    color: rgb(246, 246, 27);
+  }
+  nav {
+    display: flex;
+    height: 20%;
+    background: rgba(168, 21, 21, 0);
+    position: absolute;
+    bottom: 0;
+  }
+  nav ul li {
+    border: 4px solid rgba(33, 30, 32, 0.045);
+    margin: 8px;
+    height: 45%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #dff1fe;
+  }
+  nav a {
+    color: rgb(3, 9, 36);
+    text-decoration: none;
+    font-family: "Lobster Two", cursive;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  nav a span {
+    margin-top: -58px;
+    display: block;
+  }
+  nav img {
+    display: none;
+  }
+}
+h1 {
+  font-size: 1.2rem;
+  color: rgb(4, 0, 0);
+  padding: 10px;
+  font-family: "Lobster Two", cursive;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+.header-main {
+  margin: 10px;
+}
+
+.weinachten {
+  padding: 15px;
+  display: flex;
+  flex-flow: column;
+  min-width: 200px;
+  max-width: 550px;
+  border-radius: 15px;
+  margin: 0 auto 55px;
+  box-shadow: -1px -1px 10px 2px rgba(22, 1, 1, 0.6196078431);
+  -webkit-box-shadow: -1px -1px 10px 2px rgba(22, 1, 1, 0.6196078431);
+  -moz-box-shadow: -1px -1px 10px 2px rgba(22, 1, 1, 0.6196078431);
+}
+.weinachten img {
+  width: 70%;
+  display: block;
+  height: 80%;
+  border: 1px solid #1c6ea4;
+  border-radius: 40px 5px 40px 8px;
+  margin: 25px auto;
+  box-shadow: -1px -1px 10px 2px rgba(232, 128, 0, 0.8039215686);
+  -webkit-box-shadow: -1px -1px 10px 2px rgba(232, 128, 0, 0.6666666667);
+  -moz-box-shadow: -1px -1px 10px 2px rgba(232, 128, 0, 0.6941176471);
+}
+.weinachten div li {
+  margin: 10px;
+  font-size: 1rem;
+  color: rgb(49, 19, 216);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.weinachten div li a {
+  color: #1c6ea4;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
+.weinachten div .img {
+  width: 70%;
+  display: block;
+  height: 80%;
+  border: 1px solid #1c6ea4;
+  border-radius: 40px 5px 40px 8px;
+  margin: 25px auto;
+  box-shadow: -1px -1px 10px 2px rgba(232, 128, 0, 0.8039215686);
+  -webkit-box-shadow: -1px -1px 10px 2px rgba(232, 128, 0, 0.6666666667);
+  -moz-box-shadow: -1px -1px 10px 2px rgba(232, 128, 0, 0.6941176471);
+}
+.weinachten hr {
+  background-color: aqua;
+  height: 5px;
+  width: 300px;
+  margin: 0 auto;
+  background: rgb(208, 33, 98);
+  background: linear-gradient(123deg, rgb(208, 33, 98) 17%, rgb(18, 187, 137) 51%, rgb(18, 85, 208) 100%);
+}
+.weinachten h2 {
+  font-family: "Lobster Two", cursive;
+  padding: 10px;
+}
+.weinachten p {
+  font-size: 4vw;
+  line-height: 120%;
+  padding: 15px;
+}
+
+footer {
+  height: 150px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/11/13/10/28/christmas-2945213_960_720.jpg);
+}
+
+@media (min-width: 915px) {
+  body {
+    background-color: rgb(53, 44, 44);
+  }
+  h1 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  .weinachten1 {
+    display: flex;
+    flex-flow: column;
+  }
+  .weinachten {
+    display: flex;
+    flex-flow: row;
+    max-width: 80%;
+  }
+  .weinachten div {
+    width: 50%;
+    margin: 20px;
+  }
+  .weinachten div li {
+    color: #efaa29;
+  }
+  .weinachten img {
+    width: 80%;
+    margin: 20px;
+  }
+  .weinachten .text {
+    margin: -10;
+  }
+  .weinachten hr {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .weinachten h2 {
+    color: rgb(255, 1, 1);
+  }
+  .weinachten p {
+    font-size: 1rem;
+    color: white;
+    line-height: 30px;
+  }
+  .weinachten a {
+    font-size: 1.3rem;
+  }
+  .weinachten:nth-child(2) {
+    flex-flow: row-reverse;
+  }
+  .weinachten:nth-child(2) img {
+    margin-left: 80px;
+  }
+  footer {
+    height: 100px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=Main.css.map */

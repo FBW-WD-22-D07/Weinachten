@@ -1,0 +1,90 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+h1 {
+  font-size: 5vw;
+}
+.header-main {
+  margin: 10px;
+}
+
+.weinachten {
+  padding: 15px;
+  display: flex;
+  flex-flow: column;
+  min-width: 200px;
+  max-width: 550px;
+  border-radius: 15px;
+  margin: 0 auto 55px;
+  box-shadow: -1px -1px 10px 2px #1601019e;
+  -webkit-box-shadow: -1px -1px 10px 2px #1601019e;
+  -moz-box-shadow: -1px -1px 10px 2px #1601019e;
+  img {
+    width: 70%;
+    display: block;
+    height: 80%;
+    border: 1px solid #1c6ea4;
+    border-radius: 40px 5px 40px 8px;
+    margin: 25px auto;
+    box-shadow: -1px -1px 10px 2px #e88000cd;
+    -webkit-box-shadow: -1px -1px 10px 2px #e88000aa;
+    -moz-box-shadow: -1px -1px 10px 2px #e88000b1;
+  }
+
+  div li {
+    margin: 10px;
+    font-size: 1rem;
+    color: rgb(49, 19, 216);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    a {
+      color: #1c6ea4;
+      text-decoration: none;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 800;
+    }
+  }
+
+  div .img {
+    width: 70%;
+    display: block;
+    height: 80%;
+    border: 1px solid #1c6ea4;
+    border-radius: 40px 5px 40px 8px;
+    margin: 25px auto;
+    box-shadow: -1px -1px 10px 2px #e88000cd;
+    -webkit-box-shadow: -1px -1px 10px 2px #e88000aa;
+    -moz-box-shadow: -1px -1px 10px 2px #e88000b1;
+  }
+
+  hr {
+    background-color: aqua;
+    height: 5px;
+    width: 300px;
+    margin: 0 auto;
+    background: rgb(208, 33, 98);
+    background: linear-gradient(
+      123deg,
+      rgba(208, 33, 98, 1) 17%,
+      rgba(18, 187, 137, 1) 51%,
+      rgba(18, 85, 208, 1) 100%
+    );
+  }
+  h2 {
+    font-family: "Lobster Two", cursive;
+    padding: 10px;
+  }
+  p {
+    font-size: 4vw;
+    line-height: 120%;
+    padding: 15px;
+  }
+}
+
+footer {
+  height: 150px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/11/13/10/28/christmas-2945213_960_720.jpg);
+}

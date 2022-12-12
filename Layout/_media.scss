@@ -1,0 +1,55 @@
+@media (min-width: 915px) {
+  body {
+    background-color: rgb(53, 44, 44);
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  .weinachten1 {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .weinachten {
+    display: flex;
+    flex-flow: row;
+    max-width: 80%;
+    div {
+      width: 50%;
+      margin: 20px;
+     li{color: #efaa29;}}
+    img {
+      width: 80%;
+      margin: 20px;
+    }
+    .text {
+      margin: -10;
+    }
+    hr {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: rgb(255, 1, 1);
+    }
+    p {
+      font-size: 1rem;
+      color: white;
+      line-height: 30px;
+    }
+    a {
+      font-size: 1.3rem;
+    }
+  }
+  .weinachten:nth-child(2) {
+    flex-flow: row-reverse;
+    img {
+      margin-left: 80px;
+    }
+  }
+  footer {
+    height: 100px;
+  }
+}

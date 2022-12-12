@@ -1,0 +1,120 @@
+%display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 140px;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/01/82/33/33/1000_F_182333331_Sb4Ispnl8oW0VNYmLO5DPg4IFoPo6waP.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgb(96, 130, 208);
+  border-top: 4px solid rgb(19, 1, 1);
+  box-shadow: 0px -12px 27px -3px, inset 0px 18px 37px -35px red;
+  border-radius: 10px;
+  width: 100vw;
+  // background: rgb(138, 163, 226);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(179, 181, 202, 0.777) 4%,
+  //   rgb(206, 169, 177) 8%,
+  //   #a4a6f3 25%,
+  //   #ef6e6c 70%,
+  //   rgba(68, 34, 50, 1) 87%,
+  //   rgba(25, 52, 27, 1) 96%
+  // );
+  position: fixed;
+  bottom: 0;
+  ul {
+    @extend %display;
+    justify-content: space-around;
+
+    li {
+      list-style: none;
+    }
+    span {
+      display: none;
+    }
+  }
+
+  a {
+    margin: 2px;
+  }
+  img:hover {
+    transform: rotate(180deg) scale(-1);
+  }
+  img {
+    width: 10vw;
+    height: 15%;
+    padding: 3px;
+    @extend %display;
+    outline: 2px dotted rgb(255, 255, 255);
+    border-radius: 10px;
+    transition-duration: 1s;
+  }
+}
+
+@media (min-width: 825px) {
+  header {
+    width: 100vw;
+    height: 400px;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/27/53/08/1000_F_227530863_cRCROuNmITlNIBK9hzijGqv5x0ktnN4F.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after {
+      content: "Weinachtszeit";
+      position: absolute;
+      top: 40%;
+      left: 2%;
+      font-weight: 900;
+      font-size: 80px;
+      color: rgb(246, 246, 27);
+    }
+  }
+
+  nav {
+    display: flex;
+    height: 20%;
+
+    background: rgba(168, 21, 21, 0);
+    position: absolute;
+    bottom: 0;
+
+    ul {
+      li {
+        border: 4px solid rgba(33, 30, 32, 0.045);
+        margin: 8px;
+        height: 45%;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #dff1fe;
+      }
+    }
+
+    a {
+      color: rgb(3, 9, 36);
+      text-decoration: none;
+      font: {
+        family: "Lobster Two", cursive;
+        weight: 800;
+        size: 2rem;
+      }
+
+      span {
+        margin-top: -58px;
+        display: block;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
+}
