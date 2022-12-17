@@ -2,11 +2,17 @@
   body {
     background-color: rgb(53, 44, 44);
   }
+  .header-main {
+    
+    margin-bottom: 50px;
+  }
 
   h1 {
     font-size: 1.8rem;
     color: white;
   }
+
+  
   .weinachten1 {
     display: flex;
     flex-flow: column;
@@ -16,10 +22,19 @@
     display: flex;
     flex-flow: row;
     max-width: 80%;
+    .img-nic{width: 100%;
+      img{float: left;width: 35%;
+      height: 57%;
+    
+    }   
+     
+  }
+  .img-nico{width: 100%;margin: 0;padding: 0;
+ img{height: 30%; margin: 20px auto;}}
     div {
-      width: 50%;
-      margin: 20px;
-     li{color: #efaa29;}}
+      width: 80%;
+      margin: 10px;
+     li{color: #29efe5;}}
     img {
       width: 80%;
       margin: 20px;
@@ -35,7 +50,7 @@
       color: rgb(255, 1, 1);
     }
     p {
-      font-size: 1rem;
+      font-size: 1.4rem;
       color: white;
       line-height: 30px;
     }
@@ -43,13 +58,30 @@
       font-size: 1.3rem;
     }
   }
+  .weinachten:nth-child(1) {
+    padding-left: 50px;
+    img {
+      margin-right: 80px;
+    }
+  }
   .weinachten:nth-child(2) {
     flex-flow: row-reverse;
     img {
       margin-left: 80px;
     }
+    .img3{height: 70%;width: 80%;
+    margin-top: 20%;}
   }
-  footer {
+  .weinachten-baum{padding-right: 0px;
+  div{margin: 1px0;}
+    img{margin: 10% 0;
+      width: 100%;
+    }
+    p{margin-left: -10;}
+  
+  
+  }
+  footer { 
     height: 100px;
   }
 }

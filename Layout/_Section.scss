@@ -5,9 +5,14 @@ main {
 }
 h1 {
   font-size: 5vw;
+  span{
+    font-size: 38px;font-weight: 900;color: rgb(255, 106, 0);
+    text-shadow: 1px 1px 1px white;
+  }
 }
 .header-main {
   margin: 10px;
+  
 }
 
 .weinachten {
@@ -40,7 +45,7 @@ h1 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     a {
-      color: #1c6ea4;
+      color: #079afc;
       text-decoration: none;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
@@ -76,6 +81,7 @@ h1 {
   h2 {
     font-family: "Lobster Two", cursive;
     padding: 10px;
+   
   }
   p {
     font-size: 4vw;
